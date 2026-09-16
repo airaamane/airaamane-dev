@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "sveltekit-1",
+  "redirects": [
+    { "source": "/favicon.ico", "destination": "/favicon.svg", "permanent": true },
+    { "source": "/favicon.png", "destination": "/favicon.svg", "permanent": true }
+  ]
+}

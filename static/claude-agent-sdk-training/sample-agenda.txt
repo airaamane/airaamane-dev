@@ -1,0 +1,36 @@
+Claude Agent SDK workshop — sample agenda
+Abdellah Iraamane | Claude trainer and Udacity instructor
+
+Sample duration: 1 day
+Suggested group: 6–12 participants
+Prerequisites: Basic TypeScript and AI fundamentals
+Live delivery; format, preparation, fees and participant count agreed in the proposal.
+
+1. Scope one useful workflow
+Map inputs, decisions, tools and the point where a person should review the result. Define success before building.
+
+2. Build the first agent
+Use the Claude Agent SDK to run a narrow task. Inspect the interaction between instructions, tools and the agent loop.
+
+3. Connect tools deliberately
+Add a custom tool and discuss where MCP fits. Limit access to the capabilities the workflow needs.
+
+4. Make outputs checkable
+Define a structured response and validate it. Handle missing information and cases that need human review.
+
+5. Evaluate and plan the next iteration
+Test representative examples, inspect failure cases and identify what needs to change before broader use.
+
+Takeaways
+- A scoped agent prototype built during the session
+- A custom tool or integration and its permission boundaries
+- A structured output schema with validation
+- Evaluation cases and a list of limitations to address
+
+Preparation
+Participants should know basic TypeScript and AI fundamentals. We confirm the environment, Claude API access, setup steps and any company restrictions in advance. Exercises use sample data; access and usage costs are clarified in the proposal.
+
+Workshop details: https://abdellah-claude-training.airaamane.chatgpt.site/claude-agent-sdk-training/
+Udacity course: https://www.udacity.com/course/agentic-engineering-with-claude-agent-sdk--cd14715
+
+Independent workshop; not offered by or endorsed by Anthropic or Udacity.

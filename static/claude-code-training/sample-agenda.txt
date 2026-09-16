@@ -1,0 +1,36 @@
+Claude Code workshop — sample agenda
+Abdellah Iraamane | Claude trainer and Udacity instructor
+
+Sample duration: 1 day
+Suggested group: 6–12 participants
+Prerequisites: Comfort working in a codebase
+Live delivery; format, preparation, fees and participant count agreed in the proposal.
+
+1. Set the context
+Choose a small engineering task. Describe the codebase, boundaries and what a successful change should do.
+
+2. Work through a change
+Plan and implement a feature or refactor in a training repository. Examine the decisions Claude makes.
+
+3. Test the behaviour
+Write and run tests, inspect failures and check edge cases. Compare the result against the original requirement.
+
+4. Review and refine
+Read the diff, challenge assumptions and decide what is ready to keep. Record where human judgment mattered.
+
+5. Make it repeatable
+Capture useful instructions and skills. Assemble a playbook the team can adapt for future work.
+
+Takeaways
+- Project-context notes and a reusable skill developed in the lab
+- A code change with tests and a human-reviewed diff
+- A checklist for reviewing AI-assisted work
+- A short team playbook with the next workflow to try
+
+Preparation
+Participants should be comfortable reading code and using a terminal. We confirm the training repository, Claude access, setup steps and any company restrictions before the session. A sample repository is available when your own code is unsuitable.
+
+Workshop details: https://abdellah-claude-training.airaamane.chatgpt.site/claude-code-training/
+Udacity course: https://www.udacity.com/course/agentic-engineering-with-claude-agent-sdk--cd14715
+
+Independent workshop; not offered by or endorsed by Anthropic or Udacity.

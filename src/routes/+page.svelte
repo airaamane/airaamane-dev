@@ -224,6 +224,40 @@
         >
       </div>
     </div>
+    <div class="experience-strip" aria-labelledby="experience-heading">
+      <div class="experience-intro">
+        <h3 id="experience-heading" class="eyebrow">SPEAKING &amp; TEACHING</h3>
+        <p>From conference talks to classroom sessions.</p>
+      </div>
+      <figure>
+        <img
+          src="/speaking-dublin-2023.jpg"
+          alt="Abdellah speaking at a podium with European Power Platform Conference and Dublin 2023 signage"
+          width="720"
+          height="540"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <strong>European Power Platform Conference</strong>
+          <span>Dublin · 2023</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          src="/classroom-teaching.jpg"
+          alt="Abdellah explaining a topic beside a whiteboard while students listen in a classroom"
+          width="720"
+          height="540"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <strong>Teaching at the whiteboard</strong>
+          <span>A classroom session with students</span>
+        </figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 <section id="sample-lab" class="section-wrap section-space">

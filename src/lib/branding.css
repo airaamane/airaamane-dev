@@ -208,7 +208,7 @@ summary {
 .story-grid {
   display: grid;
   grid-template-columns: 0.83fr 1.17fr;
-  gap: 85px;
+  gap: 52px 85px;
 }
 .story-signature {
   font-size: 17px;
@@ -265,6 +265,54 @@ summary {
 .evidence-links a:hover em {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+.experience-strip {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) repeat(2, minmax(0, 340px));
+  gap: 24px;
+  padding-top: 32px;
+  border-top: 1px solid #cbd2c4;
+  align-items: start;
+}
+.experience-intro .eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.experience-intro > p {
+  max-width: 260px;
+  margin-top: 13px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.experience-strip figure {
+  min-width: 0;
+  margin: 0;
+}
+.experience-strip img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 5px;
+  background: #dfe3d9;
+}
+.experience-strip figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.experience-strip figcaption strong {
+  display: block;
+  font-weight: 600;
+}
+.experience-strip figcaption span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
 }
 .lab-layout {
   display: grid;
@@ -644,6 +692,9 @@ summary {
   .consulting-grid {
     gap: 45px;
   }
+  .experience-strip {
+    grid-template-columns: minmax(0, 0.75fr) repeat(2, minmax(0, 1fr));
+  }
   .lab-layout {
     gap: 35px;
     grid-template-columns: 0.8fr 1.2fr;
@@ -743,6 +794,16 @@ summary {
   }
   .story-copy > .story-lead {
     font-size: 23px;
+  }
+  .experience-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+  .experience-intro {
+    grid-column: 1 / -1;
+  }
+  .experience-intro > p {
+    max-width: none;
   }
   .lab-layout {
     margin-top: 32px;
@@ -875,6 +936,13 @@ summary {
   .evidence-links {
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+  .experience-strip {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .experience-strip figure {
+    max-width: 340px;
   }
   .sample-output {
     padding: 21px;

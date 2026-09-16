@@ -12,7 +12,7 @@
 <svelte:window onhashchange={revealLinkedAgenda} />
 <Seo
   title="Claude Code &amp; Agent SDK Training | Abdellah Iraamane"
-  description="Private Claude Code and Claude Agent SDK workshops for companies, led by Udacity instructor Abdellah Iraamane. View agendas, prerequisites and takeaways."
+  description="Live, hands-on Claude Code and Agent SDK workshops for engineering teams. Delivered remotely or on-site across Europe by Abdellah Iraamane."
   path="/"
   service="Claude Code and Claude Agent SDK company training"
 />
@@ -22,15 +22,11 @@
     <p class="eyebrow"><span class="short-line"></span> PRIVATE WORKSHOPS FOR ENGINEERING &amp; AI TEAMS</p>
     <h1>Claude training.<br />For teams that<br /><em>want to build.</em></h1>
     <p class="hero-description">
-      Learn Claude Code and the Claude Agent SDK with <strong>Abdellah Iraamane</strong>, instructor of
-      <a
-        href="https://www.udacity.com/course/agentic-engineering-with-claude-agent-sdk--cd14715"
-        target="_blank"
-        rel="noopener noreferrer">Agentic Engineering with Claude Agent SDK on Udacity</a
-      >.
+      Live, hands-on Claude Code and Agent SDK workshops for engineering teams, delivered remotely or on-site
+      across Europe.
     </p>
     <p class="hero-support">
-      Live, hands-on sessions shaped around your team’s experience and a workflow worth improving.
+      Leave with working code, reusable workflows and a clear way to review AI-generated work.
     </p>
     <div class="hero-actions">
       <a class="button button-dark" href="#contact"
@@ -46,31 +42,29 @@
   <aside class="hero-profile" aria-label="Meet your instructor">
     <div class="hero-photo">
       <img
-        src="/instructor-portrait.png"
+        src="/instructor-portrait-warm.png"
         alt="Abdellah Iraamane"
-        width="549"
-        height="581"
+        width="1402"
+        height="1122"
         fetchpriority="high"
       />
     </div>
     <div class="profile-details">
       <p class="eyebrow">YOUR INSTRUCTOR</p>
       <h2 translate="no">Abdellah Iraamane</h2>
-      <p>Claude trainer &amp; consultant<br />Udacity course instructor</p>
+      <p>Udacity course instructor</p>
       <a
         href="https://www.udacity.com/course/agentic-engineering-with-claude-agent-sdk--cd14715"
         target="_blank"
-        rel="noopener noreferrer">Explore my Udacity course <span aria-hidden="true">↗</span></a
+        rel="noopener noreferrer">View the course curriculum <span aria-hidden="true">↗</span></a
       >
     </div>
   </aside>
 </section>
 <div class="proof-strip">
   <div class="section-wrap">
-    <span>Take a closer look at what I teach</span><a
-      href="https://www.udacity.com/course/agentic-engineering-with-claude-agent-sdk--cd14715"
-      target="_blank"
-      rel="noopener noreferrer">The Udacity curriculum <span aria-hidden="true">↗</span></a
+    <span>A look inside the workshops</span><a href="#sample-lab"
+      >Explore a sample lab <span aria-hidden="true">↗</span></a
     ><a
       href="https://github.com/udacity/cd14715-claude-code-classroom"
       target="_blank"

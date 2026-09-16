@@ -19,7 +19,7 @@
         '@id': `${siteUrl}/#instructor`,
         name: 'Abdellah Iraamane',
         url: `${siteUrl}/#instructor`,
-        image: `${siteUrl}/instructor-portrait.png`,
+        image: `${siteUrl}/instructor-portrait-warm.png`,
         jobTitle: 'Claude Trainer and Consultant',
         sameAs: ['https://airaamane.dev']
       },

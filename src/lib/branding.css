@@ -58,29 +58,29 @@ summary {
 }
 .hero-profile {
   border-radius: 8px;
-  background: var(--ink);
+  background: #f2f1ed;
+  border: 1px solid var(--line);
   overflow: hidden;
-  box-shadow: 10px 12px 0 #e8ebe2;
+  box-shadow: 0 2px 8px rgb(26 33 30 / 4%);
 }
 .hero-photo {
   aspect-ratio: 1.22;
   overflow: hidden;
-  background: #c4c6b7;
+  background: #e3e1d9;
 }
 .hero-photo img {
   display: block;
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center top;
   width: 100%;
   height: 100%;
-  filter: saturate(0.8);
 }
 .profile-details {
   padding: 25px 27px;
-  color: #fff;
+  color: var(--ink);
 }
 .profile-details .eyebrow {
-  color: #fab58d;
+  color: var(--muted);
   font-size: 12px;
 }
 .profile-details h2 {
@@ -91,22 +91,22 @@ summary {
 .profile-details p:not(.eyebrow) {
   font-size: 14px;
   line-height: 1.6;
-  color: #c6cdc2;
+  color: var(--muted);
   margin-top: 11px;
 }
 .profile-details a {
   display: flex;
   justify-content: space-between;
   gap: 14px;
-  border-top: 1px solid #485244;
+  border-top: 1px solid var(--line);
   padding-top: 16px;
   margin-top: 19px;
-  color: #fab58d;
+  color: #b34e27;
   font-size: 14px;
   font-weight: 600;
 }
 .profile-details a:hover {
-  color: white;
+  color: #84391d;
 }
 .proof-strip {
   background: #eff1e9;
@@ -693,7 +693,6 @@ summary {
     max-width: 580px;
     justify-self: start;
     width: 100%;
-    box-shadow: 7px 8px 0 #e8ebe2;
   }
   .hero-photo {
     height: 100%;
@@ -858,7 +857,7 @@ summary {
     height: 260px;
   }
   .hero-photo img {
-    object-position: center 23%;
+    object-position: center top;
   }
   .profile-details h2 {
     font-size: 27px;

@@ -27,10 +27,10 @@
     </div>
     <aside class="detail-proof">
       <img
-        src="/instructor-portrait.png"
+        src="/instructor-portrait-warm.png"
         alt="Abdellah Iraamane"
-        width="549"
-        height="581"
+        width="1402"
+        height="1122"
         fetchpriority="high"
       />
       <p class="eyebrow">YOUR INSTRUCTOR</p>
